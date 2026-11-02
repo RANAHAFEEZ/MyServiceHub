@@ -1,0 +1,40 @@
+# Build output
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+local.properties
+
+# Secrets: NEVER commit these
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+.env
+.env.*
+secrets.properties
+service-account*.json
+
+# Your real config with keys
+shared/src/commonMain/kotlin/com/servicehub/data/AppConfig.kt
+
+# iOS / Xcode
+iosApp/Pods/
+xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# Zip files
+*.zip
